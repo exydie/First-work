@@ -1,0 +1,276 @@
+/*Global*/
+
+html,body {
+
+    font-family: 'Sen', sans-serif;
+    font-size: 16px;
+}
+* {
+    box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  align-items: center;
+}
+h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: -2px;
+  color: #232536;
+}
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -2px;
+  padding-top: 20px;
+  color: #232536;
+}
+h3 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #6D6E76;
+}
+h3 strong {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  color: #232536;
+}
+h4 {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+  color: #232536;
+  padding-top: 16px;
+}
+p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  padding-top: 16px;
+  color: #6D6E76;
+}
+hr {
+  margin-top: 32px;
+  opacity: 0.32;
+  border: 1px solid #6D6E76;
+}
+.cap-black {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #232536;
+}
+.cap-purple {
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  color: #592EA9;
+}
+
+
+/*Button*/
+
+.btn-white {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  padding: 16px 48px;
+  background-color: #fff;
+}
+.btn-yellow {
+  display: inline-block;
+  margin-top: 32px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  color: #232536;
+  padding: 16px 48px;
+  background: #FFD050;
+}
+
+/*Navigation*/
+
+.nav {
+  padding: 25px 0;
+  background-color: #232536;
+}
+.nav-row {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  max-width: 100%;
+}
+.nav-list {
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+.nav-list__item {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #fff;
+}
+
+/*Header*/
+
+.header {
+  padding: 80px 0;
+  background: #F4F0F8;
+}
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.header__picture {
+  max-width: 100%;
+}
+.header__text{
+  padding-top: 14px;
+}
+.desc {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #4C4C4C;
+}
+.desc strong {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #592EA9;
+}
+
+/*Section*/ 
+
+.section-cards {
+  padding-top: 64px;
+}
+.card {
+  padding-top: 64px;
+}
+.card {
+  display: flex;
+}
+.card__text {
+  padding: 55px 0 0 32px;
+}
+.pagination {
+  justify-content: center;
+  display: flex;
+  column-gap: 17px;
+  padding-top: 69px;
+}
+.section__title {
+  padding-top: 67px;
+}
+.items {
+  display: flex;
+  padding-top: 48px;
+  column-gap: 32px;
+}
+.item {
+  content: "";
+
+  width: 296px;
+  height: 228px;
+  padding: 32px;
+  border: 1px solid #D3D4D6;
+
+  transition: opacity 0.2s ease-in;
+}
+.item:hover {
+  background: #FFD050;
+}
+.active {
+  width: 296px;
+  height: 228px;
+  padding: 32px;
+  background: #FFD050;
+}
+.item__text {
+  font-family: 'Inter', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: #6D6E76;
+  padding-top: 4px;
+}
+.section__wrapper {
+  padding-top: 128px;
+  padding: 128px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*Form*/
+
+.footer {
+  background-color: #232536;
+}
+.nav-list__footer {
+  padding: 59px 0 57px;
+  display: flex;
+  column-gap: 24px;
+  align-items: center;
+}
+.form__wrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding: 80px 64px;
+  background-color: #2E3040;
+}
+.form__title {
+  color: #fff;
+  margin-right: auto;
+}
+.mail {
+  margin-left: 64px;
+  margin-right: 24px;
+  border: 1px solid #4C4C4C;
+  color: #6D6E76;
+  width: 323px;
+  padding: 14px 0 14px 25px;
+}
+.bg {
+  background: #FFFFFF;
+  opacity: 0.05;
+}
+.footer__text {
+  padding: 48px 0 56px;
+  color: #FFFFFF;
+  opacity: 0.7;
+}
+.contacts-information {
+  display: flex;
+}
+.social__wrapper {
+  padding: 60px 0 84px;
+  display: flex;
+  margin-left: auto;
+  column-gap: 30px;
+}
